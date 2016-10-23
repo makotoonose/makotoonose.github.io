@@ -1,18 +1,62 @@
-<!DOCTYPE html>
+<!DOCKTYPE HTML>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>名前と自己紹介ページです</title>
+    <link rel="stylesheet" href="index.css">
     <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+        
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="selected">About</a></li>
+                <li><a href="contact.html">Contact<a></li>
+             </ul>    
+            </nav>
+        
+
+        <div id="logo">
+            <img src="profile.jpg" alt="">
+            <h1>小野瀬　誠</h1>
+        </div>
+
+        </header>
+            
+    <div class="container">
+    <section>
+     <h2>About</h2>
+     <h3>自己紹介</h3>
+     <p>小野瀬　誠（Marketer) </p>
+     <p>埼玉県出身</p>
+     <p>最近は<span class="red">WebアップリケーションでHTML, CSS, Ruby on rails</span>を習得し使用する機会が多くなりました</p>
+     <p>気になった方は、<a href="contact.html">Contact</a>よりいつでもお気軽にご連絡ください。</p>
+     <br>
+     <h3>リンク</h3>
+     <ul>
+         <li><a href="https://www.facebook.com/makoto.onose.3" target="_blank">Facebook</a></li>
+         <li><a href="https://twitter.com/Makoto_Onose" target="_Twitter">Twitter</a></li>
+         <li><a href="https://github.com/makotoonose" target="_Github">My Github</a></li>
+         
+     </ul>
+     
+     </section>
+     <footer>
+         <p>&copy; 2015 Makoto Onose.</p>
+     </footer>
+    </div>
+    </body>
+    
 </html>
